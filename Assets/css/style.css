@@ -173,11 +173,12 @@ body {
     font-variant: small-caps;
     font-weight: 500;
     font-size: 45px;
-    line-height: 100%;    
+    line-height: 100%;
     margin-bottom: 60px;
 
 }
-.info_box_collection{
+
+.info_box_collection {
     padding: 30px 0;
 }
 
@@ -234,6 +235,8 @@ body {
     font-size: 18px;
     line-height: 11px;
     color: #696868;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
 .service_section .info_box ul li {
@@ -245,5 +248,68 @@ body {
     color: #7A7A7A;
     margin-top: 12px;
     text-transform: capitalize;
+}
 
+#home+.row {
+    margin: 0 -13px;
+    background-color: black;
+}
+
+#home+.row .container {
+    position: relative;
+
+}
+
+#home+.row h2 {
+    position: absolute;
+    top: -295px;
+    left: 0px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+    color: #747474;
+}
+
+#home+.row h2 span {
+    display: block;
+}
+
+#home~div.row:nth-child(3) {
+    padding: 65px 0;
+    padding-bottom: 30px;
+}
+
+.row:nth-child(3) h2 {
+    color: #0C0C0C;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.owl-carousel {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.owl-carousel.container {
+    padding: 0 20px;
+}
+
+.owl-carousel .item img {
+    width: 70px;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block;
 }
