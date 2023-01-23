@@ -295,29 +295,33 @@ body {
     margin-bottom: 35px;
 }
 
-.owl-carousel {
+.client_carousel_section .owl-carousel .item img {
+    width: 70px;
+}
+
+.testimonials_wrapper .owl-carousel {
     display: flex;
     align-items: center !important;
     justify-content: space-around;
     margin-top: 10px;
 }
 
-.owl-carousel.container {
+.testimonials_wrapper .owl-carousel.container {
     padding: 0 20px;
 }
 
-.owl-carousel .item img {
+.testimonials_wrapper .owl-carousel .item img {
     width: 70px;
 }
 
-.owl-stage {
+.testimonials_wrapper .owl-stage {
     display: flex;
     align-items: center !important;
     justify-content: center !important;
 }
 
-.owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
+.testimonials_wrapper .owl-carousel .owl-dots.disabled,
+.testimonials_wrapper .owl-carousel .owl-nav.disabled {
     display: block;
 }
 
@@ -456,12 +460,15 @@ body {
     line-height: 19px;
     color: #696868;
 }
-.team .team_members .member .text .icon{
+
+.team .team_members .member .text .icon {
     text-align: center;
 }
-.team .team_members .member .text .icon i{
+
+.team .team_members .member .text .icon i {
     margin-right: 5px;
 }
+
 .footer_section {
     color: #FFFFFF;
     padding: 30px 0;
@@ -565,4 +572,281 @@ body {
 
 .banner img {
     width: 860px;
+}
+
+/* service  */
+
+.service {
+    background: #ffffff url("./../images/service-bg.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service h2 {
+    font-variant: small-caps;
+    font-family: 'Trajan Pro';
+    font-size: 55px;
+    color: #0C0C0C;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.service .text_area {
+    padding: 10px;
+}
+
+.service .row {
+    padding: 35px 125px;
+    margin: 0;
+}
+
+.service .row:nth-child(odd) {
+    background-color: #EDEDED;
+}
+
+.service .text_area h3 {
+    font-variant: small-caps;
+    font-size: 35px;
+    font-weight: 400;
+    color: #0C0C0C;
+
+}
+
+.service .text_area p {
+    color: #000000;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Intro Light';
+    opacity: 0.6;
+    padding-right: 70px;
+}
+
+.service .text_area ul li {
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.screens_section {
+    padding: 30px 0;
+}
+
+.screens_section h2 {
+    font-size: 40px;
+}
+
+.screens_wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.screens_wrapper .screen {
+    width: 30%;
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.screens_wrapper .screen .img {
+    text-align: center;
+}
+
+.screens_wrapper .screen .text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0C0C0C;
+    font-weight: 600;
+}
+
+/* contact */
+.contact {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+}
+
+.contact .title h2 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 55px;
+    line-height: 40px;
+}
+
+.contact .title p {
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.contact .details_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+
+.details_wrap .box {
+    width: 20%;
+    background: #F0F0F0;
+    margin: 0 5px;
+}
+
+.details_wrap .box .icon {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.details_wrap .box .icon img {
+    width: 50px;
+}
+
+.details_wrap .box .text {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.details_wrap .box .text h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #000000;
+    font-family: 'Intro Bold';
+    text-transform: capitalize;
+}
+
+.details_wrap .box .text span {
+    color: #464646;
+    font-size: 12px;
+}
+
+.details_wrap .box .text p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* project  */
+
+.project {
+    background-color: #ffffff;
+    position: relative;
+    background-image: url("./../images/bg-top.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.project .title {
+    margin-bottom: 50px;
+}
+
+.project .title h2 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 45px;
+    color: #0C0C0C;
+
+}
+
+.project .televison,
+.project .campaign,
+.project .digital_campaign,
+.project .marketing,
+.project .showcase {
+    margin-bottom: 30px;
+}
+
+/* slider title  */
+
+.project .televison h2,
+.project .campaign h2,
+.digital_campaign h2,
+.marketing h2,
+.showcase h2,
+.brands h2 {
+    font-size: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0C0C0C;
+}
+
+/* television slider , campaign slider,digital ,marketing */
+.televison .tv_wrapper,
+.campaign .campaign_wrapper,
+.digital_campaign .img_wrapper,
+.marketing .marketing_wrapper,
+.showcase .showcase_wrapper,
+.brands .brand_wrap {
+    padding: 20px 0;
+}
+
+
+/* slider box width  */
+.televison .tv_wrapper .owl-stage,
+.campaign .campaign_wrapper .owl-stage,
+.showcase .showcase_wrapper .owl-stage,
+.brands .brand_wrap .owl-stage {
+    width: 7000px !important;
+}
+
+.televison .tv_wrapper .owl-stage .owl-item,
+.campaign .campaign_wrapper .owl-stage .owl-item,
+.showcase .showcase_wrapper .owl-stage .owl-item,
+.brands .brand_wrap .owl-stage .owl-item {
+    width: 370px !important;
+}
+
+.televison .tv_wrapper .item,
+.campaign .campaign_wrapper .item,
+.showcase .showcase_wrapper .item,
+.brands .brand_wrap .item {
+    width: 380px;
+    height: 270px;
+
+}
+
+/* slider dots  */
+
+.televison .owl-theme .owl-nav.disabled+.owl-dots,
+.campaign .owl-theme .owl-nav.disabled+.owl-dots,
+.digital_campaign .owl-theme .owl-nav.disabled+.owl-dots,
+.marketing .owl-theme .owl-nav.disabled+.owl-dots,
+.showcase .owl-theme .owl-nav.disabled+.owl-dots,
+.brands .owl-theme .owl-nav.disabled+.owl-dots {
+    display: block;
+}
+
+/*digital campaign slider */
+.digital_campaign .img_wrapper .owl-stage {
+    width: 7000px !important;
+}
+
+.digital_campaign .img_wrapper .owl-stage .owl-item {
+    width: 270px !important;
+}
+
+/* marketing && digital-campaign background  */
+.slider_wrap {
+    background-image: url("./../images/center-bg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* brands  */
+.brands{
+    background-image: url("./../images/bg-bottom.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    padding-bottom: 30px;
 }
