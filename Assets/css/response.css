@@ -27,10 +27,21 @@
     .team .team_members .member .text h3 {
         line-height: 15px;
     }
+
+    /* contact page  */
+    .contact .title h2 {
+        font-size: 45px;
+    }
+
+    .contact .details_wrap {
+        padding: 20px 0;
+    }
+
+    .row {
+        margin: 0;
+    }
 }
-.row{
-    margin: 0;
-}
+
 @media (max-width:991px) {
     .navbar {
         padding: 0;
@@ -38,11 +49,13 @@
         margin: 0;
         top: 50px;
     }
-    .navbar .navbar-collapse{
+
+    .navbar .navbar-collapse {
         position: relative;
         right: 20px;
     }
-    .navbar-nav .nav-item{
+
+    .navbar-nav .nav-item {
         margin-top: 10px;
     }
 
@@ -86,9 +99,20 @@
         max-width: 37%;
         padding: 10px;
     }
+
     /* about page  */
-    .about_sectioon{
+    .about_sectioon {
         text-align: center;
+    }
+
+    /* service page  */
+    .screens_wrapper {
+        width: 100%;
+    }
+
+    /* contact page  */
+    .details_wrap .box {
+        min-width: 30%;
     }
 }
 
@@ -150,7 +174,7 @@
         margin-bottom: 10px;
     }
 
-    
+
 
 }
 
@@ -162,9 +186,11 @@
     .navbar {
         top: 20px;
     }
-    .navbar .navbar-collapse{
+
+    .navbar .navbar-collapse {
         width: 100%;
     }
+
     .main {
         padding: 0;
     }
@@ -178,8 +204,8 @@
 
     .main+.footer p {
         font-size: 16px;
-        line-height: 0;
-        letter-spacing: 0;
+        line-height: 17px;
+        letter-spacing: 2px;
     }
 
     .story_section h2 {
@@ -198,10 +224,12 @@
     .img_section .content_wrap p:nth-child(3) {
         top: -125px;
     }
-.service_section .info_box{
-    max-width: 65%;
-    margin-right: 0;
-}
+
+    .service_section .info_box {
+        max-width: 65%;
+        margin-right: 0;
+    }
+
     .content_wrapper h2 {
         top: -70px;
         left: 25px;
@@ -213,11 +241,38 @@
     }
 
     .team .team_members .member {
-        max-width:60%;
+        max-width: 60%;
     }
 
     /* Service Page  */
-    .service .row{
+    .service .row {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .service .text_area p {
+        padding-right: 0;
+    }
+
+    .screens_wrapper .screen {
+        max-width: 96%;
+    }
+
+    /* contact page  */
+    .contact{
+        padding: 10px 0;
+    }
+    .contact .title p{
+        padding: 0 10px;
+    }
+    .contact .details_wrap {
         padding: 0;
     }
+
+    .details_wrap .box {
+        min-width: 65%;
+        margin-bottom: 15px;
+    }
+
+
 }
