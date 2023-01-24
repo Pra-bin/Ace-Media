@@ -2,35 +2,57 @@
 $('.client-carousel').owlCarousel({
     stagePadding: 20,
     loop: true,
-    margin: 60,
-    startPosition: 3,
+    margin: 20,
+    startPosition: 2,
     nav: true,
     center: true,
     autoplay: true,
     responsive: {
         0: {
-            items: 1
+            items: 2,
+            stagePadding: 0,
+            margin:0,
+
+        },
+         350: {
+            items: 3,
+            // stagePadding: 9,
+            // margin:90,
+
         },
         600: {
-            items: 5
+            items: 5,
+            // margin:120
+        },
+        800: {
+            items: 5,
         }
     }
 });
 
 // testimonial slider
 $('.testimonials_wrapper').owlCarousel({
-    stagePadding: 20,
+    stagePadding: 78,
     loop: true,
-    margin: 260,
+    margin: 280,
     merge: true,
-    startPosition: 2,
     center: true,
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            margin: 200,
+            statePadding: 50,
+        }, 
+        350: {
+            items: 1,
+            margin: 130,
+            statePadding: 340,
         },
         600: {
-            items: 3
+            items: 1,
+            margin: 450,
+            stagePadding: 45,
+
         },
         800: {
             items: 5
