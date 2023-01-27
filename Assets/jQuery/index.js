@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    AOS.init();
     // client slider
     $('.client-carousel').owlCarousel({
         stagePadding: 20,
@@ -141,5 +141,6 @@ $(document).ready(function () {
             },
         }
     })
+
 
 })
