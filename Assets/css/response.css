@@ -1,12 +1,23 @@
+@media(min-width:1200px) {
+    .img_section .content_wrap{
+        left: 175px;
+    }
+}
+
 @media (max-width:1200px) {
 
     /* home page  */
     .navbar-nav .nav-item {
-        margin-right: 10px;
+        margin-left: 18px;
     }
 
     .main p {
         line-height: 0;
+    }
+
+    .story_section h2,
+    .service_section h2 {
+        font-size: 40px;
     }
 
     .service_section .info_box {
@@ -19,6 +30,12 @@
         top: -215px;
         left: -10px;
     }
+    .Testimonials {
+        padding: 50px 0;
+    }
+    /* .testimonials_wrapper .owl-stage {
+        width: 5000px !important;
+    } */
 
     .team .team_members .member .img {
         margin-bottom: 25px;
@@ -27,10 +44,23 @@
     .team .team_members .member .text h3 {
         line-height: 15px;
     }
+    .screens_wrapper{
+        padding: 0;
+    }
+    .screens_wrapper .screen {
+        margin: 10px;
+    }
 
+    /* about page  */
+    .about .about_section .text_box p{
+        text-align: justify;
+    }
+    .img_box img{
+     width: 100%;
+    }
     /* contact page  */
     .contact .title h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .contact .details_wrap {
@@ -43,25 +73,32 @@
 }
 
 @media (max-width:991px) {
-    .navbar {
-        padding: 0;
+    .navbar-nav{
         position: absolute;
-        margin: 0;
-        top: 50px;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        text-align: center;
+        background-color: white!important;
+        border-radius: 6px;
+        padding: 20px 0;
+        z-index: 999;
     }
-
-    .navbar .navbar-collapse {
-        position: relative;
-        right: 20px;
-    }
-
     .navbar-nav .nav-item {
         margin-top: 10px;
+    }
+
+    .story_section h2 {
+        font-size: 35px;
     }
 
     .img_section,
     .story_section {
         text-align: center;
+    }
+
+    .img_section .content_wrap {
+        left: 50px;
     }
 
     .img_section .content_wrap p:nth-child(1) {
@@ -76,13 +113,22 @@
         left: 200px;
     }
 
+    .story_section h2,
+    .service_section h2 {
+        font-size: 30px;
+    }
+
+    .story_section h2 span {
+        display: inline;
+    }
+
     .service_section {
         padding: 20px 0;
     }
 
     .content_wrapper h2 {
-        top: -160px;
-        left: -50px;
+        top: -176px;
+        left: -85px;
         font-size: 35px;
     }
 
@@ -100,14 +146,56 @@
         padding: 10px;
     }
 
+    /* service page  */
+    .screens_wrapper{
+        padding: 0;
+        /* max-width: 31%; */
+    }
+    .service .row {
+        padding: 38px 41px;}
+
     /* about page  */
     .about_sectioon {
+        text-align: center;
+    }
+
+    .about_sectioon .img_box {
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about .img_box {
         text-align: center;
     }
 
     /* service page  */
     .screens_wrapper {
         width: 100%;
+    }
+
+    /* project page  */
+    .project .title h2 {
+        font-size: 35px;
+    }
+
+    .project .televison h2,
+    .project .campaign h2,
+    .digital_campaign h2,
+    .marketing h2,
+    .showcase h2,
+    .brands h2 {
+        font-size: 25px;
+    }
+
+    /* project page  */
+    .tv_wrapper .owl-stage,
+    .brand_wrap .owl-stage,
+    .showcase_wrapper .owl-stage,
+    .campaign_wrapper .owl-stage {
+        /* width: 7000px !important; */
     }
 
     /* contact page  */
@@ -117,14 +205,22 @@
 }
 
 @media (max-width:767px) {
+    /* .container .container {
+        max-width: 89%;
+    } */
+
     .navbar {
         top: 40px;
-        /* right: 10px; */
+
     }
 
     .main p {
         margin-bottom: 0;
         font-size: 50px;
+    }
+
+    .img_section .content_wrap {
+        left: 70px;
     }
 
     .img_section .content_wrap p:nth-child(1) {
@@ -155,11 +251,13 @@
 
     .content_wrapper h2 {
         top: -115px;
+        left: -10px;
         font-size: 25px;
     }
 
-    .client-carousel .owl-stage {
-        width: 6000px !important;
+    .client_carousel_section h2,
+    .Testimonials h2 {
+        font-size: 30px;
     }
 
     .client-carousel .item {
@@ -175,13 +273,34 @@
     }
 
 
+    /* service page  */
+    .service .row {
+        padding: 20px;
+    }
+
+    .service .text_area ul li {
+        font-size: 15px;
+    }
+
+    .screens_wrapper {
+        padding: 0;
+    }
+
+    .screens_wrapper .screen {
+        margin: 5px;
+    }
+
+    /* project page  */
+    .tv_wrapper .owl-stage,
+    .brand_wrap .owl-stage,
+    .showcase_wrapper .owl-stage,
+    .brand_wrap .owl-stage {
+        /* width: 7000px !important; */
+    }
 
 }
 
 @media (max-width:575px) {
-    .container .container {
-        max-width: 89%;
-    }
 
     .navbar {
         top: 20px;
@@ -209,7 +328,11 @@
     }
 
     .story_section h2 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .story_section h2 span {
+        display: inline;
     }
 
     .img_section .content_wrap p:nth-child(1) {
@@ -225,15 +348,26 @@
         top: -125px;
     }
 
+    .service_section h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
     .service_section .info_box {
-        max-width: 65%;
+        max-width: 70%;
         margin-right: 0;
     }
 
     .content_wrapper h2 {
-        top: -70px;
-        left: 25px;
+        top: -90px;
+        left: -15px;
         font-size: 15px;
+    }
+
+    .client_carousel_section h2,
+    .Testimonials h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
     }
 
     .Testimonials {
@@ -259,12 +393,18 @@
     }
 
     /* contact page  */
-    .contact{
+    .contact {
         padding: 10px 0;
     }
-    .contact .title p{
+
+    .contact .title h2 {
+        font-size: 30px;
+    }
+
+    .contact .title p {
         padding: 0 10px;
     }
+
     .contact .details_wrap {
         padding: 0;
     }

@@ -6,7 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ace Media</title>
-    
+
+    <!-- google fonts   -->
+    <!-- inter font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <!-- normalize css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- owl carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
@@ -30,45 +41,39 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="overflow-x-hidden">
         <div id="home">
             <div class="header">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-4 logo">
-                            <a href="./index.html"><img src="./Assets/images/logo.png"></a>
-                        </div>
-                        <div class="col-lg-6 col-2">
-                            <nav class="navbar navbar-expand-lg">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="./About.html">About
-                                                Us</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./Service.html">Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./Project.html">Projects</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./Contact.html">Contact</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link"><img src="./Assets/images/hamberger.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a href="./index.html"><img src="./Assets/images/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./About.html">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Service.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Project.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"><img src="./Assets/images/hamberger.png" alt=""></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </nav>
             </div>
             <div class="content_wrap">
                 <div class="main">
@@ -88,7 +93,7 @@
                                 and
                                 laser-focused creative services that produce a strong ROI.</p>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 img_box">
                             <div class="img_section">
                                 <img src="./Assets/images/story.png" alt="">
                                 <div class="content_wrap">
@@ -166,12 +171,18 @@
         </div>
         <div class="client_carousel_section justify-content-center">
             <h2>Clients We’ve Worked With</h2>
+            
             <div class="owl-carousel client-carousel container owl-theme">
-                <div class="item"><img src="./Assets/images/Group-1.png" alt=""></div>
-                <div class="item"><img src="./Assets/images/Group-2.png" alt=""></div>
-                <div class="item"><img src="./Assets/images/Group-3.png" alt=""></div>
-                <div class="item"><img src="./Assets/images/Group-4.png" alt=""></div>
-                <div class="item"><img src="./Assets/images/Group-5.png" alt=""></div>
+                <div class="item d-flex justify-content-center align-items-center"><img
+                        src="./Assets/images/Group-1.png" alt=""></div>
+                <div class="item d-flex justify-content-center align-items-center"><img
+                        src="./Assets/images/Group-2.png" alt=""></div>
+                <div class="item d-flex justify-content-center align-items-center"><img
+                        src="./Assets/images/Group-3.png" alt=""></div>
+                <div class="item d-flex justify-content-center align-items-center"><img
+                        src="./Assets/images/Group-4.png" alt=""></div>
+                <div class="item d-flex justify-content-center align-items-center"><img
+                        src="./Assets/images/Group-5.png" alt=""></div>
             </div>
 
         </div>
@@ -180,38 +191,64 @@
             <div class="container ">
                 <div class="testimonials_wrapper owl-carousel owl-theme">
                     <div class="item">
-                        <div class="img justify-content-center">
-                            <img src="./Assets/images/Group-1.png" alt="">
-                        </div>
-                        <div class="content">
-                            ACE is an
-                            established full service
-                            advertising agency. They
-                            have an excellent team who
-                            understands the client's
-                            business and needs of its
-                            consumers.
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="img">
-                            <img src="./Assets/images/Group-2.png" alt="">
-                        </div>
-                        <div class="content">
-                            We have ACE as
-                            our advertising agency
-                            for 10 years now,
-                            and we are very
-                            happy with them.
+                        <div class="item_wrap">
+                            <div class="img justify-content-center">
+                                <img src="./Assets/images/Group-1.png" alt="">
+                            </div>
+                            <div class="content">
+                                ACE is an
+                                established full service
+                                advertising agency. They
+                                have an excellent team who
+                                understands the client's
+                                business and needs of its
+                                consumers.
+                            </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="img">
-                            <img src="./Assets/images/Group-3.png" alt="">
+                        <div class="item_wrap">
+                            <div class="img">
+                                <img src="./Assets/images/Group-2.png" alt="">
+                            </div>
+                            <div class="content">
+                                We have ACE as
+                                our advertising agency
+                                for 10 years now,
+                                and we are very
+                                happy with them.
+                            </div>
                         </div>
-                        <div class="content align-items-end">
-                            ACE is an established full service advertising agency. They have an excellent team who
-                            understands the client's business and needs of its consumers.
+                    </div>
+                    <div class="item">
+                        <div class="item_wrap">
+                            <div class="img">
+                                <img src="./Assets/images/Group-3.png" alt="">
+                            </div>
+                            <div class="content align-items-end">
+                                ACE is an established full service advertising agency. They have an excellent team who
+                                understands the client's business and needs of its consumers.
+                            </div>
+                        </div>
+                    </div><div class="item">
+                        <div class="item_wrap">
+                            <div class="img">
+                                <img src="./Assets/images/Group-3.png" alt="">
+                            </div>
+                            <div class="content align-items-end">
+                                ACE is an established full service advertising agency. They have an excellent team who
+                                understands the client's business and needs of its consumers.
+                            </div>
+                        </div>
+                    </div><div class="item">
+                        <div class="item_wrap">
+                            <div class="img">
+                                <img src="./Assets/images/Group-3.png" alt="">
+                            </div>
+                            <div class="content align-items-end">
+                                ACE is an established full service advertising agency. They have an excellent team who
+                                understands the client's business and needs of its consumers.
+                            </div>
                         </div>
                     </div>
                 </div>
